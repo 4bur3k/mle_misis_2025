@@ -4,7 +4,7 @@ from src.visual_odometry import VisualOdometry
 from src.visualizer import Trajectory2DVisualizer, draw_keypoints
 import numpy as np
 
-st.title("SLAM-lite: Visual Odometry from Video")
+st.title("Visual Odometry")
 
 video_file = st.sidebar.file_uploader("Upload a video", type=["mp4", "avi", "mov"])
 focal_length = st.sidebar.slider("Focal Length (px)", 100, 2000, 718)
